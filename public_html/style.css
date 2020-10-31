@@ -1,0 +1,124 @@
+
+/* 
+    Created on : Oct 15, 2020, 5:09:56 PM
+    Author     : Vincent Holmlund
+*/
+.heading{
+  color:white;
+  font-family:verdana;
+  position:relative;
+  text-align:center;
+  font-size:48px;
+  top:50px;
+}
+body{
+  background-image:url('https://cdn.pixabay.com/photo/2016/11/21/12/30/milky-way-1845068_1280.jpg');
+}
+.option{
+  width:300px;
+  height:auto;  
+  float:left;
+  
+}
+#skeldOption{
+  left:400px;
+  position:absolute;
+}
+.topNav{
+    background-color:gray;
+    overflow:hidden;
+    z-index: 1;
+    position:fixed;
+    top:0;
+    
+    left:0;
+    right:0;
+}
+.navOption{
+    float:left;
+    color:white;
+    text-align:center;
+    font-size:20px;
+    margin:10px 8px;
+    text-decoration:underline; 
+    cursor:pointer;
+}
+.navOption:hover{
+    color:black;
+    text-shadow:2px 2px;
+}
+.dropbtn{
+    
+}
+.dropdown{
+    position:relative;
+    display:none;
+    
+}
+.dropdown-content-nav{
+    background-color:white;
+    
+}
+.dropdown-content{
+    position:absolute;
+    min-width: 160px;
+    display: none;
+    z-index: 1;
+}
+.dropdown a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.timer{
+    background-color:black;
+    color:white;
+    border-radius:10px;
+    font-size:50px;
+    
+   
+    align-content: center;
+}
+.sideBar{
+    background-color:lightgray;
+    position: fixed;
+    bottom: 0;
+    right:0;
+}
+.pink-box{
+    background-color:pink;
+}
+.cyan-box{
+    background-color:cyan;
+}
+.yellow-box{
+    background-color:yellow;
+}
+.red-box{
+    background-color:red;
+}
+.blue-box{
+    background-color: blue;
+}
+.black-box{
+    background-color:black;
+}
+.green-box{
+    background-color:green;
+}
+.brown-box{
+    background-color:brown;
+}
+.lime-box{
+    background-color: lime;
+}
+.purple-box{
+    background-color:purple;
+}
+.orange-box{
+    background-color: orange;
+}
+.white-box{
+    background-color:white;
+}
